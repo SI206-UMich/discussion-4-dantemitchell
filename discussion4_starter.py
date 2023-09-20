@@ -29,7 +29,7 @@ def __str__(self):
     #       False otherwise
 
     # YOUR CODE HERE
-def verify_input()
+def verify_input():
 
 
     # Create the "area" method
