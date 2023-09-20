@@ -29,7 +29,11 @@ def __str__(self):
     #       False otherwise
 
     # YOUR CODE HERE
-def verify_input():
+def verify_input(self, width, height):
+    if width > 0 and height > 0:
+        return True
+    else:
+        return False
 
 
     # Create the "area" method
@@ -38,7 +42,8 @@ def verify_input():
     # Otherwise, it returns the area of the rectangle.
 
     # YOUR CODE HERE
-
+def area(width, height):
+    
 
 
     # Create the "perimeter" method
